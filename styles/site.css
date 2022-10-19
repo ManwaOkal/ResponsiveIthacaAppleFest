@@ -1,0 +1,366 @@
+/** Wide Screens**/
+body{
+    background-color:#03100a;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+.upperNav{
+    position: sticky;
+    top: 0;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(129, 98, 19);
+    justify-content: space-between;
+
+}
+
+
+.header{
+    padding-left: 30px;
+    margin: 0;
+    background-color: rgb(129, 98, 19);
+    color: #ffffff;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    font-size: 27px;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 0;
+    background-color: white;
+}
+
+
+
+.Icons{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black; background-color: rgb(129, 98, 19);
+    margin: 0;
+    margin-top: 0;
+    padding-right: 30px;
+    height: 80px;
+    left: 400px;
+
+}
+
+.Icons > li{
+    list-style: none;
+    justify-content:center;
+    margin: 20px;
+}
+.Icons li img {
+    transition: transform .9s ease-in-out;
+  }
+  .Icons li img:hover {
+    transform: rotate(360deg);
+  }
+
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+.NavText{
+    width: 100%;
+    background-image: url('../Images/Welcome-modified.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 46em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+.NavText h2{
+    margin: 0;
+    padding-top: 200px;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: fantasy;
+    word-spacing: 5px;
+}
+
+.NavText p{
+    color: #ffffff;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 32px;
+    font-family:cursive;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(129, 98, 19);
+    height: 70px;
+    border-top: 1px solid #ffffff;
+    border: 1px solid #ffffff;
+    margin: 0;
+}
+
+#LowerNavPlaceHolder{
+    position: sticky;
+    top: 70px;
+
+}
+#LowerNavPlaceHolder ul li a{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+/**.NavText a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    border: white solid 2px;
+    background-color: black;
+}**/
+
+.navigation li{
+    list-style: none;
+    margin-top:18px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 2em;
+}
+
+.ParagraphContainer{
+    display: flex;
+    background-color: #f3eded;
+    color:black;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-around;
+    border-top: 0;
+
+}
+.SecondParagraph{
+    margin: 0;
+}
+.SecondParagraph h2{
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.SecondParagraph h2 figure{
+    margin: 0;
+    justify-content: center;
+
+}
+.SecondParagraph img{
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+
+
+}
+.FirstParagraph{
+    margin: 5% auto;
+    margin-top: 0;
+
+}
+
+.FirstParagraph h3{
+    color: rgb(165, 147, 48);
+}
+.background{
+    background-color: white;
+    margin: 5%;
+    margin-top: 0;
+    padding: 6%;
+    text-align: justify;
+    margin-top: 0;
+    padding-top: 2%;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    border: 1px solid rgb(176, 42, 42);
+
+}
+
+.citation{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.arrow a{
+    text-decoration: none;
+    color:gold;
+}
+.arrow a:hover{
+    color: whitesmoke;
+}
+.background h3{
+    text-transform: capitalize;
+    font-size: .8em;
+    text-decoration: underline;
+}
+
+footer{
+    color: #ffffff;
+    z-index: 2;
+    background-color: rgb(129, 98, 19);
+    width: 100%;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    margin: 0;
+    height: 2em;
+    padding: 1%;
+    border: 1px solid white;
+}
+footer ul li{
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+/**Business page**/
+.LowerNavPlaceHolder{
+    position: sticky;
+    top: 0;
+}
+.LowerNavPlaceHolder .navigation li a{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+ul{
+    list-style:circle;
+}
+
+
+.Events{
+    border-bottom: 2px solid rgb(176, 42, 42);
+}
+.Events.FirstEvent{
+    border-top: 2px solid rgb(176, 42, 42);
+}
+
+.Events h3{
+    text-decoration: none!important;
+    font-family: serif;
+    font-size: 1em!important;
+    color: rgb(165, 147, 48);
+}
+.EventsHeader{
+    text-decoration: none!important;
+    font-family: serif;
+    font-size: 1em!important;
+    color: rgb(176, 42, 42);
+
+}
+.EventsHeader1{
+    color: goldenrod!important;
+
+}
+/**Narrow Screens >>>>>>>>>>>>>>>>>>>>>>**/
+
+@media(max-width:911px){
+    .upperNav .header{
+        font-size: 20px;
+    }
+
+
+    .NavText h2{
+        font-size: 40px;
+    }
+    .NavText p{
+        font-size: 35px;
+    }
+    .navigation li a{
+        font-size: 20px;
+    }
+    .background p{
+        font-size: 19px;
+    }
+
+    .SecondParagraph h2{
+        font-size: 20px;
+    }
+    .FirstParagraph{
+        font-size: 22px;
+    }
+
+}
+
+@media(max-width:793px){
+    .upperNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .NavText{
+        height: 33em;
+
+    }
+    .NavText h2{
+        font-size: 20px;
+    }
+    .NavText p{
+        font-size: 10px;
+    }
+    .Icons{
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+
+    }
+    .header{
+        justify-content: center;
+        text-align: center;
+    }
+        #LowerNavPlaceHolder{
+        position: sticky;
+        top: 150px;
+    }
+
+}
+@media(max-width:420px){
+    .IconsHolder{
+        flex-wrap: wrap;
+    }
+    .Icons li{
+        margin: 2px;
+    }
+
+    #LowerNavPlaceHolder{
+        position: sticky;
+        top: 150px;
+    }
+}
