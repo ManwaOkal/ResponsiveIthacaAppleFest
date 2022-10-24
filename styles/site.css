@@ -148,7 +148,7 @@ figure{
     text-decoration: none;
     text-transform: capitalize;
     color: white;
-    font-size: 2em;
+    font-size: 25px!important;
 }
 
 .ParagraphContainer{
@@ -199,7 +199,7 @@ figure{
 }
 .background{
     background-color: white;
-    margin: 5%;
+    margin: 1%;
     margin-top: 0;
     padding: 6%;
     text-align: justify;
@@ -332,6 +332,10 @@ ul{
     .NavText h2{
         font-size: 20px;
     }
+    .background{
+        margin: 0 auto;
+        border: none;
+    }
     .NavText p{
         font-size: 10px;
     }
@@ -350,6 +354,16 @@ ul{
         top: 150px;
     }
 
+    .navigation a{
+        font-size: 18px;
+    }
+    .SecondParagraph h2{
+        font-size: 15px;
+    }
+    .FirstParagraph{
+       font-size: 18px;
+    }
+
 }
 @media(max-width:420px){
     .IconsHolder{
@@ -362,5 +376,33 @@ ul{
     #LowerNavPlaceHolder{
         position: sticky;
         top: 150px;
+        font-size: 20px;
     }
+    .NavText{
+        display: none;
+    }
+    .navigation li a{
+
+        font-size: 15px!important;
+
+    }
+    .SecondParagraph h2{
+        font-size: 15px;
+    }
+    .FirstParagraph p{
+        font-size: 15px;
+     }
+     .FirstParagraph ul li{
+        font-size: 15px;
+     }
+     .FirstParagraph h3{
+        font-size: 16px;
+     }
+
+     p.citation{
+        font-size: 12px;
+     }
+     h3.EventsHeader{
+        font-size: 12px;
+     }
 }
